@@ -1,0 +1,133 @@
+
+
+body 
+{background-color: #F7D6FF;}
+
+
+
+h1#defensa{
+	text-align: center;
+	font-size: 4em;
+	color: #905537;
+}
+
+h3#contenido{
+    text-align: center;
+}
+
+
+p#enunciado{
+    text-align: center;
+    color: #726A60;
+    text-decoration: blink;
+    font-style: verdana;
+    font-family: sans-serif;
+    font-size: 0.85em;
+    font-style: normal;
+
+}
+
+
+div#defensa, div#enlaces, div#contenido
+    {width: 94%;
+    padding: 25px;
+    border: 9px;
+    margin: 5px;
+    border-color: #9D9D90;
+    border-style: solid;
+    background-color: #96ADB8;}
+
+h2#defensa{
+	text-align: center;
+	font-size: 2em;
+	color: #905537;
+}
+
+img.vacio{
+	text-align: right;
+	vertical-align: middle;
+    padding-left: 30%;
+}
+
+tr#defensa1, tr#defensa2, tr#defensa3, tr#defensa4, tr#defensa5, tr#defensa6, tr#defensa7{
+	border-style: solid;
+    border-color: #990099;
+    font-style: italic;
+    width: 100%;
+    height: 20px;
+    background-color: #FFFFE9;
+    padding: 5px;
+}
+
+td#defensa1_1, td#defensa2_1, td#defensa3_1, td#defensa4_1, td#defensa5_1, td#defensa6_1, td#defensa7_1{
+	width: 15%;
+    border-style: solid;
+    border-color: #990099;
+    height: 20px;
+    background-color: #FFFFE9;
+    padding: 5px;
+}
+
+
+td#defensa1_2, td#defensa2_2, td#defensa3_2, td#defensa4_2, td#defensa5_2, td#defensa6_2, td#defensa7_2{
+    border-style: solid;
+    border-color: #990099;
+    font-style: italic;
+    height: 80px;
+    background-color: #FFFFE9;
+    padding: 5px;
+}
+
+td#defensa1_3, td#defensa2_3, td#defensa3_3, td#defensa4_3, td#defensa5_3, td#defensa6_3, td#defensa7_3{
+    border-style: solid;
+    border-color: #990099;
+    font-style: italic;
+    height: 80px;
+    background-color: #FFFFE9;
+    padding: 5px;
+    text-align: left;
+}
+
+
+td#defensa1_4, td#defensa2_4, td#defensa3_4, td#defensa4_4, td#defensa5_4, td#defensa6_4, td#defensa7_4{
+    border-style: solid;
+    border-color: #990099;
+    font-style: italic;
+    height: 80px;
+    background-color: #FFFFE9;
+    padding: 5px;
+}
+
+
+
+/* IMPORTANTE!!!........ESTE ES EL CSS PARA PONER LOS ENLACES EN LINEA
+                        Y CON FONDOS DE DIFERENTES COLORES (FALTA HACER EL CSS
+                            PARA DIFERENTES COLORES PARA EL LINK SEGÚN SE PINCHE O NO) */
+
+ul#horizontal li{
+    font-size: 1.2em;
+    display:inline;
+    font-style: verdana;
+    font-family: sans-serif;
+}
+
+ul#horizontal{
+    background-color: #FFFFE9;
+    height: 3em;
+    padding-left: 9%;
+    padding-top: 25px;
+    border-style: solid;
+    border-color: #990099;
+}
+
+ul#horizontal li a{
+    background-color:  #9D9D90;
+    color: white;
+    padding: 10px 60px;
+    text-decoration: blink;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#horizontal li a:hover {
+    background-color: #E89619;
+}

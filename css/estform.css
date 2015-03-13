@@ -1,0 +1,77 @@
+
+body{
+    background-color: #F7D6FF;
+   /* SI QUISIERAMOS UNA IMAGEN DE FONDO EN VEZ DE UN COLOR PONDRIAMOS===>
+      background-image: url("imagenes/fondo.jpg"); */
+}
+
+
+div#enlaces, div#formulario{
+    width: 94%;
+    padding: 25px;
+    border: 9px;
+    margin: 5px;
+    border-color: #9D9D90;
+    border-style: solid;
+    background-color: #96ADB8;
+}
+
+form.desplazar{
+    width: 22%;
+    position: static;
+    padding: 40px;
+    border: 9px;
+    margin: 5px;
+    border-color: #96ADB8;
+    border-style: solid;
+    background-color: #C8C8DA;
+    
+}
+
+
+
+fieldset#abc{
+	background-color: #EFDEAD;
+}
+
+fieldset#edad{
+	background-color: #D4D4E8;
+}
+
+
+fieldset#password{
+	background-color: #B8E6E6;
+}
+
+
+/* IMPORTANTE!!!........ESTE ES EL CSS PARA PONER LOS ENLACES EN LINEA
+                        Y CON FONDOS DE DIFERENTES COLORES (FALTA HACER EL CSS
+                            PARA DIFERENTES COLORES PARA EL LINK SEGÚN SE PINCHE O NO) */
+
+ul#horizontal li{
+    font-size: 1.2em;
+    display:inline;
+    font-style: verdana;
+    font-family: sans-serif;
+}
+
+ul#horizontal{
+    background-color: #FFFFE9;
+    height: 3em;
+    padding-left: 9%;
+    padding-top: 25px;
+    border-style: solid;
+    border-color: #990099;
+}
+
+ul#horizontal li a{
+    background-color: #9D9D90;
+    color: white;
+    padding: 10px 60px;
+    text-decoration: blink;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#horizontal li a:hover {
+    background-color: #E89619;
+}

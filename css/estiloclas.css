@@ -1,0 +1,133 @@
+body 
+{background-color: #F7D6FF;}
+
+div#intro
+    {width: 94%;
+    padding: 25px;
+    border: 9px;
+    margin: 5px;
+    border-color: #9D9D90;
+    border-style: solid;
+    background-color: #96ADB8;}
+
+
+div#enlaces {
+    width: 94%;
+    padding: 25px;
+    border: 9px;
+    margin: 5px;
+    border-color: #9D9D90;
+    border-style: solid;
+    background-color: #96ADB8;
+}
+
+
+div#texto
+   {width: 94%;
+    padding: 25px;
+    border: 9px;
+    margin: 5px;
+    border-color: #9D9D90;
+    border-style: solid;
+    background-color: #96ADB8;}
+
+
+div#contenido
+   {width: 43%;
+    padding: 25px;
+    border: 9px;
+    margin: 5px;
+    border-color: #9D9D90;
+    border-style: solid;
+    background-color: #96ADB8;
+    float: left;}
+
+ul#contenido
+   {border-style: solid;
+    border-style: double;
+    border-color: #990099;
+    font-style: italic;
+    width: 90%;
+    list-style-type: none;
+    padding: 20px}
+
+
+div#derecho
+   {width: 44%;
+    padding: 25px;
+    border: 9px;
+    margin: 5px;
+    border-color: #9D9D90;
+    border-style: solid;
+    background-color: #96ADB8;
+    float: right;}
+
+
+table#centrar{
+    width:100%;
+}
+
+/* IMPORTANTE!!!........ESTE ES EL CSS PARA PONER LOS ENLACES EN LINEA
+                        Y CON FONDOS DE DIFERENTES COLORES (FALTA HACER EL CSS
+                            PARA DIFERENTES COLORES PARA EL LINK SEGÚN SE PINCHE O NO) */
+
+ul#horizontal li{
+    font-size: 1.2em;
+    display:inline;
+    font-style: verdana;
+    font-family: sans-serif;
+}
+
+ul#horizontal{
+    background-color: #FFFFE9;
+    height: 3em;
+    padding-left: 9%;
+    padding-top: 25px;
+    border-style: solid;
+    border-color: #990099;
+}
+
+ul#horizontal li a{
+    background-color:  #9D9D90;
+    color: white;
+    padding: 10px 60px;
+    text-decoration: blink;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#horizontal li a:hover {
+    background-color: #E89619;
+}
+
+/* NOTA: HAY QUE HACER OTRO CSS PARA LOS ENLACES TIPO <A> PARA DE LAS TROPAS, RECURSOS ETC
+         YA QUE SON MAS PEQUEÑOS Y TENEMOS QUE ALINEARLO DENTRO DEL <DIV>; */
+
+
+ul#mini li{
+    font-size: 0.7em;
+    display:inline;
+    font-style: verdana;
+    font-family: sans-serif;
+}
+
+ul#mini{
+    background-color: #FFFFE9;
+    height: 1.5em;
+    padding-left: 3%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-color: #990099;
+}
+
+ul#mini li a{
+    background-color:  #9D9D90;
+    color: white;
+    padding: 10px 60px;
+    text-decoration: blink;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#mini li a:hover {
+    background-color: #E89619;
+}
